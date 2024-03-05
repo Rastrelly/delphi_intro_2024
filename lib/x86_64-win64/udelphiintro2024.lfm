@@ -1,0 +1,171 @@
+object Form1: TForm1
+  Left = 598
+  Height = 240
+  Top = 208
+  Width = 546
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 546
+  LCLVersion = '2.2.6.0'
+  object GroupBox1: TGroupBox
+    Left = 8
+    Height = 225
+    Top = 8
+    Width = 280
+    Caption = 'Basics'
+    ClientHeight = 205
+    ClientWidth = 276
+    TabOrder = 0
+    object bCalculate: TButton
+      Left = 32
+      Height = 32
+      Top = 48
+      Width = 96
+      Caption = '='
+      OnClick = bCalculateClick
+      TabOrder = 0
+    end
+    object edValA: TEdit
+      Left = 16
+      Height = 23
+      Top = 16
+      Width = 80
+      TabOrder = 1
+      Text = '0'
+    end
+    object edValB: TEdit
+      Left = 176
+      Height = 23
+      Top = 16
+      Width = 80
+      TabOrder = 2
+      Text = '0'
+    end
+    object edValC: TEdit
+      Left = 96
+      Height = 23
+      Top = 88
+      Width = 80
+      TabOrder = 3
+      Text = '0'
+    end
+    object labelSymPlus: TLabel
+      Left = 128
+      Height = 15
+      Top = 24
+      Width = 8
+      Caption = '+'
+      ParentColor = False
+    end
+    object bCompare: TButton
+      Left = 144
+      Height = 33
+      Top = 48
+      Width = 88
+      Caption = 'Compare'
+      OnClick = bCompareClick
+      TabOrder = 4
+    end
+  end
+  object GroupBox2: TGroupBox
+    Left = 296
+    Height = 224
+    Top = 8
+    Width = 240
+    Caption = 'Square Eq'
+    ClientHeight = 204
+    ClientWidth = 236
+    TabOrder = 1
+    object Label1: TLabel
+      Left = 8
+      Height = 15
+      Top = 8
+      Width = 6
+      Caption = 'a'
+      ParentColor = False
+    end
+    object edSqA: TEdit
+      Left = 8
+      Height = 23
+      Top = 24
+      Width = 80
+      TabOrder = 0
+      Text = '0'
+    end
+    object Label2: TLabel
+      Left = 8
+      Height = 15
+      Top = 56
+      Width = 7
+      Caption = 'b'
+      ParentColor = False
+    end
+    object edSqB: TEdit
+      Left = 8
+      Height = 23
+      Top = 72
+      Width = 80
+      TabOrder = 1
+      Text = '0'
+    end
+    object Label3: TLabel
+      Left = 8
+      Height = 15
+      Top = 104
+      Width = 6
+      Caption = 'c'
+      ParentColor = False
+    end
+    object edSqC: TEdit
+      Left = 8
+      Height = 23
+      Top = 120
+      Width = 80
+      TabOrder = 2
+      Text = '0'
+    end
+    object Label4: TLabel
+      Left = 144
+      Height = 15
+      Top = 8
+      Width = 12
+      Caption = 'x1'
+      ParentColor = False
+    end
+    object edSqX1: TEdit
+      Left = 144
+      Height = 23
+      Top = 24
+      Width = 80
+      ReadOnly = True
+      TabOrder = 3
+      Text = '0'
+    end
+    object Label5: TLabel
+      Left = 144
+      Height = 15
+      Top = 56
+      Width = 12
+      Caption = 'x2'
+      ParentColor = False
+    end
+    object edSqX2: TEdit
+      Left = 144
+      Height = 23
+      Top = 72
+      Width = 80
+      ReadOnly = True
+      TabOrder = 4
+      Text = '0'
+    end
+    object bCalcSqRoots: TButton
+      Left = 149
+      Height = 25
+      Top = 168
+      Width = 75
+      Caption = 'Calculate'
+      OnClick = bCalcSqRootsClick
+      TabOrder = 5
+    end
+  end
+end
